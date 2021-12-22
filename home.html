@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flickity.css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <!--[if lte IE 9]>
+          <link href='/PATH/TO/FOLDER/css/animations-ie-fix.css' rel='stylesheet'>
+    <![endif]-->
+    <script src="js/flickity.js"></script>
+    <!--<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>-->
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div class="curve-mask">
+            <div class="header-top flex wrapper">
+                <button class="hamburger hamburger--spin" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="logo">
+                    <a href="home.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.04 212.82">
+                            <title>logo</title>
+                            <polygon points="124.18 41.49 210.75 41.49 210.75 68.82 156.4 68.82 156.4 82.11 205.77 82.11 205.77 107.5 156.4 107.5 156.4 120.79 212.36 120.79 212.36 148.12 124.18 148.12 124.18 41.49"
+                                fill="#fff" />
+                            <polygon points="229.95 41.49 262.17 41.49 262.17 120.79 308.44 120.79 308.44 148.12 229.95 148.12 229.95 41.49"
+                                fill="#fff" />
+                            <polygon points="324.86 41.49 411.43 41.49 411.43 68.82 357.08 68.82 357.08 82.11 406.45 82.11 406.45 107.5 357.08 107.5 357.08 120.79 413.03 120.79 413.03 148.12 324.86 148.12 324.86 41.49"
+                                fill="#fff" />
+                            <polygon points="0 0 0 27.33 72.57 27.33 72.57 148.12 104.79 148.12 104.79 27.33 431.79 27.33 431.79 148.12 464 148.12 464 27.33 1023.67 27.33 1023.67 0 0 0"
+                                fill="#fff" />
+                            <path d="M550.32,95.45h15.07c12.33,0,16,3.89,16,10.6,0,9.56-8.22,10.61-14.22,10.61H550.32ZM518.1,176.69h32.22V139.51h17.14c12.74,0,13.62,10.6,14.52,20.75a77.83,77.83,0,0,0,2.62,16.43h32.21c-2.92-4.93-3.06-17.63-3.51-22.85-1.17-13.29-6.59-23.15-15.37-26.58,10.7-4,15.68-15.68,15.68-26.74,0-20.16-15.81-30.45-34.13-30.45H518.1Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M663.83,138.61,674,105.76h.29l9.37,32.85Zm-44.08,38.08h32.38l4.68-15.23h33.27l4.38,15.23h33.39L689.77,70.07H658.29Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M769.9,97.39h10.25c23.28,0,25.34,18.67,25.34,25.39,0,10-2.92,26.58-23,26.58H769.9Zm-32.22,79.3h46.57c36.48,0,53.47-20.76,53.47-53.46,0-26.88-12.31-53.16-47.17-53.16H737.68Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <polygon points="819.57 41.49 906.14 41.49 906.14 68.82 851.79 68.82 851.79 82.11 901.16 82.11 901.16 107.5 851.79 107.5 851.79 120.79 907.75 120.79 907.75 148.12 819.57 148.12 819.57 41.49"
+                                fill="#fff" />
+                            <path d="M992.24,95.45h15.1c12.31,0,16,3.89,16,10.6,0,9.56-8.19,10.61-14.2,10.61H992.24ZM960,176.69h32.22V139.51h17.16c12.75,0,13.61,10.6,14.49,20.75a79.84,79.84,0,0,0,2.64,16.43h32.22c-2.92-4.93-3.08-17.63-3.51-22.85-1.18-13.29-6.58-23.15-15.37-26.58,10.69-4,15.66-15.68,15.66-26.74,0-20.16-15.81-30.45-34.13-30.45H960Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M114.93,211H104.08v-8.8H136.8V211H125.72v29.69H114.93Z" transform="translate(-34.71 -28.57)"
+                                fill="#fff" />
+                            <path d="M156.38,202.22v14h14.51v-14h10.79v38.49H170.89V225.46H156.38v15.25H145.59V202.22Z" transform="translate(-34.71 -28.57)"
+                                fill="#fff" />
+                            <path d="M219.13,225.46H203.49V232H221v8.68H192.7V202.22h27.41v8.68H203.49v5.88h15.64Z" transform="translate(-34.71 -28.57)"
+                                fill="#fff" />
+                            <path d="M272.81,202.22v38.49H262V202.22Z" transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M283.83,240.71V202.22h13.53l6.34,11.14a110.51,110.51,0,0,1,6.79,14.56h.17a124.41,124.41,0,0,1-.74-15.65V202.22h10v38.49H308.09l-7-12.74a161.6,161.6,0,0,1-7.42-14.9h-.23c.28,5.83.34,11.42.34,17.25v10.39Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M330.94,202.22H358v8.68H341.73v6.68H357v8.68h-15.3v14.45H330.94Z" transform="translate(-34.71 -28.57)"
+                                fill="#fff" />
+                            <path d="M408.59,221.24c0,11.65-8.17,20.15-21.41,20.15-12.68,0-20.39-8.5-20.39-19.58,0-11.76,8.45-20.27,21.07-20.27C400.88,201.54,408.59,209.93,408.59,221.24Zm-30.32.28c0,6.63,3.65,11.54,9.48,11.54s9.36-4.91,9.36-11.54-3.65-11.65-9.42-11.65S378.27,214.9,378.27,221.52Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M418.13,202.74a95,95,0,0,1,13.59-.86c6.45,0,10.73.91,13.7,3a9.89,9.89,0,0,1,4,8.45c0,5.14-4.17,8.39-6.86,9.25v.23c2.57,1.08,4,3.59,5.09,6.79,1.31,3.94,2.62,9.59,3.36,11.08h-11a45.62,45.62,0,0,1-3-8.8c-1.2-4.62-2.74-5.53-6.34-5.53H428.8v14.33H418.13Zm10.67,16H432c4.23,0,6.74-1.71,6.74-4.62s-2.17-4.4-5.83-4.4a22.78,22.78,0,0,0-4.11.23Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M494.87,226.38c-.12-4.8-.17-10.11-.17-16.79h-.17c-1.38,5.48-3.2,11.53-4.69,16.39l-4.17,13.93h-8.62L473.63,226c-1.15-4.74-2.4-10.73-3.43-16.44h-.11c-.23,5.88-.4,12-.57,16.79l-.58,14.33H458.78L461,202.22h15.42l2.57,9.71c1.08,4.11,2.28,9.42,3.14,14.27h.23c1.25-4.85,2.68-10.56,3.88-14.38l3-9.6h15L506,240.71H495.27Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M527.64,231.34l-2.45,9.37H513.83L526,202.22h14.73l13,38.49h-12l-2.86-9.37Zm9.54-7.88-2.06-6.79c-.68-2.17-1.48-5-2.17-7.19h-.11c-.63,2.22-1.2,5-1.83,7.25l-1.82,6.73Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M565.56,211H554.71v-8.8h32.72V211H576.35v29.69H565.56Z" transform="translate(-34.71 -28.57)"
+                                fill="#fff" />
+                            <path d="M607,202.22v38.49H596.22V202.22Z" transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M658.34,221.24c0,11.65-8.16,20.15-21.41,20.15-12.68,0-20.38-8.5-20.38-19.58,0-11.76,8.45-20.27,21.07-20.27C650.63,201.54,658.34,209.93,658.34,221.24Zm-30.32.28c0,6.63,3.66,11.54,9.48,11.54s9.37-4.91,9.37-11.54-3.66-11.65-9.43-11.65S628,214.9,628,221.52Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M667.88,240.71V202.22h13.53l6.34,11.14a110.53,110.53,0,0,1,6.8,14.56h.17a122.62,122.62,0,0,1-.75-15.65V202.22h10v38.49H692.15l-7-12.74a164.17,164.17,0,0,1-7.42-14.9h-.23c.29,5.83.34,11.42.34,17.25v10.39Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M778.42,239.57c-1.6.79-5.71,1.82-11,1.82-15.59,0-22.56-9-22.56-19.3,0-13.36,10.51-20.55,23.13-20.55,5,0,9.14.91,11,1.94l-2.23,8.34a22,22,0,0,0-8.39-1.6c-6.45,0-12.16,3.48-12.16,11.13,0,6.62,4.51,11.25,12.44,11.25a24.19,24.19,0,0,0,8-1.31Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M826.22,221.24c0,11.65-8.17,20.15-21.42,20.15-12.67,0-20.38-8.5-20.38-19.58,0-11.76,8.45-20.27,21.07-20.27C818.51,201.54,826.22,209.93,826.22,221.24Zm-30.32.28c0,6.63,3.65,11.54,9.47,11.54s9.37-4.91,9.37-11.54-3.66-11.65-9.42-11.65S795.9,214.9,795.9,221.52Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M871.27,226.38c-.12-4.8-.17-10.11-.17-16.79h-.18c-1.37,5.48-3.19,11.53-4.68,16.39l-4.17,13.93h-8.62L850,226c-1.15-4.74-2.4-10.73-3.43-16.44h-.11c-.23,5.88-.4,12-.57,16.79l-.58,14.33H835.18l2.17-38.49h15.42l2.57,9.71c1.08,4.11,2.28,9.42,3.14,14.27h.23c1.25-4.85,2.68-10.56,3.88-14.38l3-9.6h15l1.77,38.49H871.67Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M892.85,202.74a92.48,92.48,0,0,1,14.11-.86c5.76,0,9.82,1.14,12.5,3.08a11.52,11.52,0,0,1,4.68,9.48,12.21,12.21,0,0,1-3.77,9.37c-3.31,2.91-8,4.22-13.93,4.22-1.2,0-2.23-.11-2.91-.17v12.85H892.85Zm10.68,17a16.34,16.34,0,0,0,2.8.17c4.17,0,7.13-1.89,7.13-5.37,0-2.8-2.11-4.63-6.39-4.63a20.42,20.42,0,0,0-3.54.23Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M941.27,231.34l-2.45,9.37H927.46l12.16-38.49h14.73l13,38.49h-12l-2.85-9.37Zm9.54-7.88-2.06-6.79c-.68-2.17-1.48-5-2.17-7.19h-.11c-.63,2.22-1.2,5-1.83,7.25l-1.82,6.73Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M976.27,240.71V202.22h13.54l6.33,11.14a109.26,109.26,0,0,1,6.8,14.56h.17a124.41,124.41,0,0,1-.74-15.65V202.22h10v38.49h-11.82l-7-12.74a164.16,164.16,0,0,1-7.43-14.9h-.23c.29,5.83.35,11.42.35,17.25v10.39Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M1032.4,240.71V224.66L1019,202.22h12.62l3.6,8.57c1.2,2.8,1.94,4.45,2.91,6.85h.11c.92-2.23,1.77-4.17,2.86-6.79l3.6-8.63h12.44l-14,22v16.45Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                        </svg>
+                    </a>
+                </div>
+                <nav class="flex">
+                    <a class="menu-link" href="features.html">Features</a>
+                    <a class="menu-link" href="pricing.html">Pricing</a>
+                    <a class="menu-link" href="contact.html">Contact & Help</a>
+                </nav>
+            </div>
+            <div class="header-middle">
+                <h1 class="white-font">TeleTrader
+                    <span class="white-font">WorkStation</span>
+                </h1>
+                <h4 class="white-font">The Profesional Trader's Market Monitor</h4>
+            </div>
+            <div class="header-bottom">
+                <button type="button" class="free white-font">Try for free</button>
+                <button type="button" class="licence white-font">Get a licence</a>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="wrapper">
+            <p>TeleTrader WorkStation combines the most modern technical analysis with reliable and quick delivery of stock
+                prices from all over the world.</p>
+            <p>Full customization possibilities for the workspace along with an extensive set of analysis tools and fundamental
+                data make TeleTrader WorkStation an indispensable platform for professional and private traders and investors.</p>
+        </div>
+    </section>
+    <section class="product-benefits">
+        <div class="wrapper">
+            <h4>Make your trading decisions.</h4>
+            <h3>Fast. Efficient. Professional.</h3>
+            <div class="benefits-wrapper flex animatedParent" data-sequence='500'>
+                <div class="market-data animated bounceInLeft" data-id='1'>
+                    <img src="images/market.svg" alt="market-data">
+                    <h6>Market Data</h6>
+                    <p>Real-time prices, market depth, time & sales and historical data</p>
+                </div>
+                <div class="technical-analysis animated bounceInLeft" data-id='2'>
+                    <img src="images/analysis.svg" alt="technical-analysis">
+                    <h6>Technical Analysis</h6>
+                    <p>Technical indicators, trading signals and drawing tools</p>
+                </div>
+                <div class="news animated bounceInRight" data-id='1'>
+                    <img src="images/news.svg" alt="news">
+                    <h6>News & Fundamental Data</h6>
+                    <p>Technical indicators, trading signals and drawing tools</p>
+                </div>
+                <div class="charts animated bounceInRight" data-id='2'>
+                    <img src="images/charts.svg" alt="charts">
+                    <h6>Charts</h6>
+                    <p>Tick and intraday data, daily, weekly and monthly time-series</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="user-comments">
+        <div class="wrapper">
+            <div class="carousel" data-flickity='{"autoPlay":true, "wrapAround": true}'>
+                <div class="carousel-cell">
+                    <div class="text white-font">
+                        “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                        aliquam erat volutpat.”
+                    </div>
+                    <div class="user flex">
+                        <div class="user-info">
+                            <a class="profile-image">
+                                <img src="images/users/user.jpg" alt="patsy">
+                            </a>
+                        </div>
+                        <div class="about-user">
+                            <h6 class="white-font">Patsy Hicks</h6>
+                            <p>Senior Consultant Reiffeisen Bank</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="text white-font">
+                        “Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                        from 45 BC, making it over 2000 years old.”
+                    </div>
+                    <div class="user flex">
+                        <div class="user-info">
+                            <a class="profile-image">
+                                <img src="images/users/user2.jpg" alt="mike">
+                            </a>
+                        </div>
+                        <div class="about-user">
+                            <h6 class="white-font">Mike Patton</h6>
+                            <p>Bank Examiner Securities America</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="text white-font">
+                        “There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                        by injected humour.”
+                    </div>
+                    <div class="user flex">
+                        <div class="user-info">
+                            <a class="profile-image">
+                                <img src="images/users/user3.jpg" alt="mike">
+                            </a>
+                        </div>
+                        <div class="about-user">
+                            <h6 class="white-font">Svetlana Below</h6>
+                            <p>Senior Coordinator LPL Financial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="charts">
+        <div class="wrapper clearfix animatedParent">
+            <div class="left animated bounceInLeft">
+                <h4>Charts</h4>
+                <ul>
+                    <li>Tick, intraday, daily, weekly and monthly charts</li>
+                    <li>11 different chart types</li>
+                    <li>Linear, logarithmic and percentage scale</li>
+                    <li>Overlay of securities</li>
+                    <li>Freely configurable continuation contracts for futures</li>
+                    <li>Individual customization and storing of templates</li>
+                </ul>
+                <a href="#" class="service">More information</a>
+            </div>
+            <div class="right animated bounceInRight">
+            </div>
+        </div>
+    </section>
+    </section>
+    <section class="analysis">
+        <div class="wrapper clearfix animatedParent data-sequence='500'">
+            <div class="left animated bounceInLeft">
+
+            </div>
+            <div class="right animated bounceInRight">
+                <h4>Technical Analysis</h4>
+                <ul>
+                    <li>Drawing tools like lines, trend channels, text, Fibonacci retracements and much more</li>
+                    <li>Over 200 studies with indicators and signals</li>
+                    <li>Candlestick pattern recognition</li>
+                    <li>Pivot Points in Charts</li>
+                    <li>Study columns in price pages and Excel (via RTD)</li>
+                    <li>Freely programmable studies with expandable function library</li>
+                </ul>
+                <a href="#" class="service">More information</a>
+            </div>
+        </div>
+    </section>
+    <section class="market-accordion">
+        <div class="accordionwrapper wrapper">
+            <div class="accordion-item">
+                <h4 class="accordion">
+                    <span class="arrows">
+                        <span class="bar1"></span>
+                        <span class="bar2"></span>
+                    </span>
+                    Cash Markets & Indicies
+                </h4>
+                <div class="collapsible">
+<div class="accordion-content flex">
+
+    <div class="column-3">
+        <h2>America</h2>
+        <ul class="tt_listBlue">
+            <li>NYSE Equities (Level 1)</li>
+            <li>NYSE MKT (Level 1)</li>
+            <li>NYSE Arca Equities (Level 1)</li>
+            <li>NASDAQ (Level 2)</li>
+            <li>NASDAQ OTC BB &amp; Other OTC (Level 1)</li>
+            <li>NASDAQ OMX Global Indexes</li>
+            <li>Toronto &amp; TSX Venture Exchange</li>
+            <li>Dow Jones Indexes</li>
+            <li>S&amp;P Indices</li>
+            <li>Buenos Aires</li>
+            <li>Mexico</li>
+        </ul>
+
+        <h2>Germany</h2>
+        <ul class="tt_listBlue">
+            <li>Xetra (Level 1 &amp; 2)</li>
+            <li>Xetra European Stars (Level 1 &amp; 2)</li>
+            <li>Xetra US Stars (Level 1 &amp; 2)</li>
+            <li>Xetra International Market (Level 1 &amp; 2)</li>
+            <li>Frankfurt Floor</li>
+            <li>German Regional Exchanges (Berlin, Düsseldorf, Hamburg, Hannover, Munich)</li>
+            <li>Stuttgart / EUWAX</li>
+            <li>Tradegate</li>
+            <li>Zertifikatebörse Frankfurt</li>
+            <li>Deutsche Börse-Indices &amp; Xetra ETF</li>
+            <li>STOXX Indices</li>
+            <li>iBoxx Indices</li>
+        </ul>
+    </div>
+
+    <div class="column-3">
+
+
+        <h2>Western Europe</h2>
+        <ul class="tt_listBlue">
+            <li>Euronext Cash Market (Level 2) - Paris, Amsterdam, Brussels, Lisbon</li>
+            <li>Euronext Indices</li>
+            <li>Bolsas y Mercados Espanoles (Level 1)</li>
+            <li>SIX Swiss Exchange</li>
+            <li>BX Berne Exchange</li>
+            <li>Borsa Italiana Stocks &amp; Bonds</li>
+            <li>Vienna (Level 1 &amp; 2)</li>
+        </ul>
+
+
+        <h2>Northern Europe</h2>
+        <ul class="tt_listBlue">
+            <li>
+                BATS Europe
+            </li>
+            <li>London Stock Exchange</li>
+            <li>FTSE Indices</li>
+            <li>Irish Stock Exchange</li>
+            <li>Nasdaq OMX Nordic Equity &amp; Fixed Income</li>
+            <li>Oslo Bors</li>
+            <li>OMX Baltic</li>
+        </ul>
+
+        <h2>Eastern Europe</h2>
+        <ul class="tt_listBlue">
+            <li>Budapest (Level 1 &amp; 2)</li>
+            <li>Warsaw</li>
+            <li>Prague</li>
+            <li>Bratislava</li>
+        </ul>
+
+    </div>
+
+    <div class="column-3 last">
+
+        <h2>South Eastern Europe</h2>
+        <ul class="tt_listBlue">
+            <li>Belgrade (Level 1 &amp; 2)</li>
+            <li>Ljubljana (Level 1)</li>
+            <li>Zagreb (Level 1 &amp; 2)</li>
+            <li>Banja Luka (Level 1 &amp; 2)</li>
+            <li>Sarajevo (Level 1 &amp; 2)</li>
+            <li>Macedonia (Level 1 &amp; 2)</li>
+            <li>Athens SE</li>
+            <li>Bucharest SE</li>
+            <li>Sofia SE</li>
+            <li>Montenegro</li>
+            <li>Istanbul</li>
+        </ul>
+
+        <h2>Asia</h2>
+        <ul class="tt_listBlue">
+            <li>Hong Kong Stock Exchange</li>
+            <li>Hang Seng Indices</li>
+            <li>Singapore Exchange</li>
+        </ul>
+
+    </div>
+</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h4 class="accordion">
+                    <span class="arrows">
+                        <span class="bar1"></span>
+                        <span class="bar2"></span>
+                    </span>
+                    Derivatives Market
+                </h4>
+                <div class="collapsible-market">
+                    <div class="accordion-content flex">
+                        <div class="column-3">
+                            <ul class="tt_listBlue">
+                            <h2>North America</h2>
+                                <li>
+                                    CME (Chicago Mercantile Exchange):
+                                    <ul class="sub-list">
+                                        <li>Commodities</li>
+                                        <li>Equity Indices</li>
+                                        <li>Weather</li>
+                                        <li>Interest Rates</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="tt_listBlue">
+                                <li>
+                                    CBOT (Chicago Board of Trade):
+                                    <ul class="sub-list">
+                                        <li>Commodities</li>
+                                        <li>Interest Rates</li>
+                                        <li>Equity Indices</li>
+                                        <li>FX</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="tt_listBlue">
+                                <li>
+                                    COMEX (Commodity Exchange):
+                                    <ul class="sub-list">
+                                        <li>Metals</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column-3">
+                            <ul class="tt_listBlue">
+                                <li>
+                                    NYMEX (New York Mercantile Exchange):
+                                    <ul class="sub-list">
+                                        <li>Energy</li>
+                                        <li>Soft Commodities</li>
+                                        <li>Precious Metals</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="tt_listBlue">
+                                <li>
+                                    ICE Futures Europe:
+                                    <ul class="sub-list">
+                                        <li>Energy and Power</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="tt_listBlue">
+                                <li>
+                                    ICE Futures U.S.:
+                                    <ul class="sub-list">
+                                        <li>Agriculture</li>
+                                        <li>Indices</li>
+                                        <li>FX</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column-3">
+                        <h2>Europe</h2>
+                        <ul class="tt_listBlue">
+                            <li>Eurex (Level 1 &amp; 2)</li>
+                            <li>LIFFE</li>
+                            <li>London Metal Exchange</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h4 class="accordion">
+                    <span id="arrowChange" class="arrows">
+                        <span class="bar1"></span>
+                        <span class="bar2"></span>
+                    </span>
+                    Other Markets & Data
+                </h4>
+                <div class="collapsible-other ">
+                    <div class="accordion-content flex">
+                    <div class="column-3">
+                        <h2>Foreign Exchange Data</h2>
+                        <ul class="tt_listBlue sub-list">
+                            <li>Morningstar Forex</li>
+                            <li>GTIS Forex</li>
+                            <li>ECB reference rates</li>
+                        </ul>
+                    </div>
+                    <div class="column-3">
+                    <h2>Interest Rates / Money Market / Commodities</h2>
+                    <ul class="tt_listBlue sub-list">
+                        <li>BBA LIBOR</li>
+                        <li>EURIBOR</li>
+                        <li>GTIS Money Markets</li>
+                        <li>GTIS Precious Metals</li>
+                        <li>Swiss National Bank</li>
+                        <li>pro aurum</li>
+                    </ul>
+                    </div>
+                    <div class="column-3">
+                    <h2>Issuer Feeds</h2>
+                        <ul class="tt_listBlue sub-list">
+                            <li>Index- and Commodity Indications of Deutsche Bank and Citibank</li>
+                            <li>Austria: RCB, OEVAG</li>
+                            <li>Germany: Baader Bank, Barclays Bank, BNP Paribas, Citibank, Commerzbank, Deutsche Bank, DZ Bank, Goldman Sachs, HSBC
+                                Trinkaus &amp; Burkhardt, HVB, ING, Lang &amp; Schwarz, RBS, Societe Generale, UBS</li>
+                            <li>Switzerland: UBS, Goldman Sachs</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ordering-prices">
+        <div class="contact-info">
+            <p>Are you a Professional or Institutional user?</p>
+            <p>
+                <a href="#">Contact us</a>for more information about our individual offers for single and multi-terminal solutions!</p>
+        </div>
+        <div class="prices-table-wrapper flex wrapper">
+            <div class="price-table gold">
+                <div class="triangle-wrapper">
+
+                </div>
+                <div class="price-table-wrapper">
+                    <div>
+                        <span class="price">69.00
+                            <span class="euro">€</span>
+                        </span>
+                        <span class="monthly">per month</span>
+                    </div>
+                    <div class="order-category">Gold
+                    </div>
+                    <div class="order-info">
+                        <p class="user-level">for private traders, analysts and investors</p>
+                        <p class="border-image"></p>
+                        <p class="package-info">European Data, OTC Contributors and other basic data</p>
+                        <p class="border-image"></p>
+                        <p class="service">Pricing Details</p>
+                    </div>
+                </div>
+                <div class="order-button">
+                    <button type="button" class="white-font">Order now</button>
+                </div>
+            </div>
+            <div class="price-table platinum">
+                <div class="triangle-wrapper">
+
+                </div>
+                <div class="price-table-wrapper">
+                    <div>
+                        <span class="price">89.00
+                            <span class="euro">€</span>
+                        </span>
+                        <span class="monthly">per month</span>
+                    </div>
+                    <div class="order-category">Platinum
+                    </div>
+                    <div class="order-info">
+                        <p class="user-level">for semi-professional users</p>
+                        <p class="border-image"></p>
+                        <p class="package-info">European and International Data, Real-Time Forex and much more</p>
+                        <p class="border-image"></p>
+                        <p class="service">Pricing Details</p>
+                    </div>
+                </div>
+                <div class="order-button">
+                    <button type="button" class="white-font">Order now</button>
+                </div>
+            </div>
+            <div class="price-table black">
+                <div class="triangle-wrapper">
+
+                </div>
+                <div class="price-table-wrapper">
+                    <div>
+                        <span class="price">169.00
+                            <span class="euro">€</span>
+                        </span>
+                        <span class="monthly">per month</span>
+                    </div>
+                    <div class="order-category">Black
+                    </div>
+                    <div class="order-info">
+                        <p class="user-level">for professional and institutional users</p>
+                        <p class="border-image"></p>
+                        <p class="package-info">European and International Data, Real-Time Forex, Real-Time Crypto Currencies and much more</p>
+                        <p class="border-image"></p>
+                        <p class="service">Pricing Details</p>
+                    </div>
+                </div>
+                <div class="order-button">
+                    <button type="button" class="white-font">Order now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="apps">
+        <h1 class="white-font">TeleTrader
+            <span class="white-font">Apps</span>
+        </h1>
+        <div class="apps-image">
+
+        </div>
+        <p class="text white-font">Do you already know about our innovative browser-based terminal TeleTrader WebStation for institutional users?</p>
+        <div class="app-button">
+            <button type="button" class="free">Check out our Apps</button>
+        </div>
+    </section>
+    <footer class="animatedParent">
+        <div class="wrapper flex animated growIn">
+            <div class="footer-menu">
+                <div class="logo">
+                    <a href="home.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.04 212.82">
+                            <title>logo</title>
+                            <polygon points="124.18 41.49 210.75 41.49 210.75 68.82 156.4 68.82 156.4 82.11 205.77 82.11 205.77 107.5 156.4 107.5 156.4 120.79 212.36 120.79 212.36 148.12 124.18 148.12 124.18 41.49"
+                                fill="#fff" />
+                            <polygon points="229.95 41.49 262.17 41.49 262.17 120.79 308.44 120.79 308.44 148.12 229.95 148.12 229.95 41.49"
+                                fill="#fff" />
+                            <polygon points="324.86 41.49 411.43 41.49 411.43 68.82 357.08 68.82 357.08 82.11 406.45 82.11 406.45 107.5 357.08 107.5 357.08 120.79 413.03 120.79 413.03 148.12 324.86 148.12 324.86 41.49"
+                                fill="#fff" />
+                            <polygon points="0 0 0 27.33 72.57 27.33 72.57 148.12 104.79 148.12 104.79 27.33 431.79 27.33 431.79 148.12 464 148.12 464 27.33 1023.67 27.33 1023.67 0 0 0"
+                                fill="#fff" />
+                            <path d="M550.32,95.45h15.07c12.33,0,16,3.89,16,10.6,0,9.56-8.22,10.61-14.22,10.61H550.32ZM518.1,176.69h32.22V139.51h17.14c12.74,0,13.62,10.6,14.52,20.75a77.83,77.83,0,0,0,2.62,16.43h32.21c-2.92-4.93-3.06-17.63-3.51-22.85-1.17-13.29-6.59-23.15-15.37-26.58,10.7-4,15.68-15.68,15.68-26.74,0-20.16-15.81-30.45-34.13-30.45H518.1Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M663.83,138.61,674,105.76h.29l9.37,32.85Zm-44.08,38.08h32.38l4.68-15.23h33.27l4.38,15.23h33.39L689.77,70.07H658.29Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M769.9,97.39h10.25c23.28,0,25.34,18.67,25.34,25.39,0,10-2.92,26.58-23,26.58H769.9Zm-32.22,79.3h46.57c36.48,0,53.47-20.76,53.47-53.46,0-26.88-12.31-53.16-47.17-53.16H737.68Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <polygon points="819.57 41.49 906.14 41.49 906.14 68.82 851.79 68.82 851.79 82.11 901.16 82.11 901.16 107.5 851.79 107.5 851.79 120.79 907.75 120.79 907.75 148.12 819.57 148.12 819.57 41.49"
+                                fill="#fff" />
+                            <path d="M992.24,95.45h15.1c12.31,0,16,3.89,16,10.6,0,9.56-8.19,10.61-14.2,10.61H992.24ZM960,176.69h32.22V139.51h17.16c12.75,0,13.61,10.6,14.49,20.75a79.84,79.84,0,0,0,2.64,16.43h32.22c-2.92-4.93-3.08-17.63-3.51-22.85-1.18-13.29-6.58-23.15-15.37-26.58,10.69-4,15.66-15.68,15.66-26.74,0-20.16-15.81-30.45-34.13-30.45H960Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M114.93,211H104.08v-8.8H136.8V211H125.72v29.69H114.93Z" transform="translate(-34.71 -28.57)"
+                                fill="#fff" />
+                            <path d="M156.38,202.22v14h14.51v-14h10.79v38.49H170.89V225.46H156.38v15.25H145.59V202.22Z" transform="translate(-34.71 -28.57)"
+                                fill="#fff" />
+                            <path d="M219.13,225.46H203.49V232H221v8.68H192.7V202.22h27.41v8.68H203.49v5.88h15.64Z" transform="translate(-34.71 -28.57)"
+                                fill="#fff" />
+                            <path d="M272.81,202.22v38.49H262V202.22Z" transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M283.83,240.71V202.22h13.53l6.34,11.14a110.51,110.51,0,0,1,6.79,14.56h.17a124.41,124.41,0,0,1-.74-15.65V202.22h10v38.49H308.09l-7-12.74a161.6,161.6,0,0,1-7.42-14.9h-.23c.28,5.83.34,11.42.34,17.25v10.39Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M330.94,202.22H358v8.68H341.73v6.68H357v8.68h-15.3v14.45H330.94Z" transform="translate(-34.71 -28.57)"
+                                fill="#fff" />
+                            <path d="M408.59,221.24c0,11.65-8.17,20.15-21.41,20.15-12.68,0-20.39-8.5-20.39-19.58,0-11.76,8.45-20.27,21.07-20.27C400.88,201.54,408.59,209.93,408.59,221.24Zm-30.32.28c0,6.63,3.65,11.54,9.48,11.54s9.36-4.91,9.36-11.54-3.65-11.65-9.42-11.65S378.27,214.9,378.27,221.52Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M418.13,202.74a95,95,0,0,1,13.59-.86c6.45,0,10.73.91,13.7,3a9.89,9.89,0,0,1,4,8.45c0,5.14-4.17,8.39-6.86,9.25v.23c2.57,1.08,4,3.59,5.09,6.79,1.31,3.94,2.62,9.59,3.36,11.08h-11a45.62,45.62,0,0,1-3-8.8c-1.2-4.62-2.74-5.53-6.34-5.53H428.8v14.33H418.13Zm10.67,16H432c4.23,0,6.74-1.71,6.74-4.62s-2.17-4.4-5.83-4.4a22.78,22.78,0,0,0-4.11.23Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M494.87,226.38c-.12-4.8-.17-10.11-.17-16.79h-.17c-1.38,5.48-3.2,11.53-4.69,16.39l-4.17,13.93h-8.62L473.63,226c-1.15-4.74-2.4-10.73-3.43-16.44h-.11c-.23,5.88-.4,12-.57,16.79l-.58,14.33H458.78L461,202.22h15.42l2.57,9.71c1.08,4.11,2.28,9.42,3.14,14.27h.23c1.25-4.85,2.68-10.56,3.88-14.38l3-9.6h15L506,240.71H495.27Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M527.64,231.34l-2.45,9.37H513.83L526,202.22h14.73l13,38.49h-12l-2.86-9.37Zm9.54-7.88-2.06-6.79c-.68-2.17-1.48-5-2.17-7.19h-.11c-.63,2.22-1.2,5-1.83,7.25l-1.82,6.73Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M565.56,211H554.71v-8.8h32.72V211H576.35v29.69H565.56Z" transform="translate(-34.71 -28.57)"
+                                fill="#fff" />
+                            <path d="M607,202.22v38.49H596.22V202.22Z" transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M658.34,221.24c0,11.65-8.16,20.15-21.41,20.15-12.68,0-20.38-8.5-20.38-19.58,0-11.76,8.45-20.27,21.07-20.27C650.63,201.54,658.34,209.93,658.34,221.24Zm-30.32.28c0,6.63,3.66,11.54,9.48,11.54s9.37-4.91,9.37-11.54-3.66-11.65-9.43-11.65S628,214.9,628,221.52Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M667.88,240.71V202.22h13.53l6.34,11.14a110.53,110.53,0,0,1,6.8,14.56h.17a122.62,122.62,0,0,1-.75-15.65V202.22h10v38.49H692.15l-7-12.74a164.17,164.17,0,0,1-7.42-14.9h-.23c.29,5.83.34,11.42.34,17.25v10.39Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M778.42,239.57c-1.6.79-5.71,1.82-11,1.82-15.59,0-22.56-9-22.56-19.3,0-13.36,10.51-20.55,23.13-20.55,5,0,9.14.91,11,1.94l-2.23,8.34a22,22,0,0,0-8.39-1.6c-6.45,0-12.16,3.48-12.16,11.13,0,6.62,4.51,11.25,12.44,11.25a24.19,24.19,0,0,0,8-1.31Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M826.22,221.24c0,11.65-8.17,20.15-21.42,20.15-12.67,0-20.38-8.5-20.38-19.58,0-11.76,8.45-20.27,21.07-20.27C818.51,201.54,826.22,209.93,826.22,221.24Zm-30.32.28c0,6.63,3.65,11.54,9.47,11.54s9.37-4.91,9.37-11.54-3.66-11.65-9.42-11.65S795.9,214.9,795.9,221.52Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M871.27,226.38c-.12-4.8-.17-10.11-.17-16.79h-.18c-1.37,5.48-3.19,11.53-4.68,16.39l-4.17,13.93h-8.62L850,226c-1.15-4.74-2.4-10.73-3.43-16.44h-.11c-.23,5.88-.4,12-.57,16.79l-.58,14.33H835.18l2.17-38.49h15.42l2.57,9.71c1.08,4.11,2.28,9.42,3.14,14.27h.23c1.25-4.85,2.68-10.56,3.88-14.38l3-9.6h15l1.77,38.49H871.67Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M892.85,202.74a92.48,92.48,0,0,1,14.11-.86c5.76,0,9.82,1.14,12.5,3.08a11.52,11.52,0,0,1,4.68,9.48,12.21,12.21,0,0,1-3.77,9.37c-3.31,2.91-8,4.22-13.93,4.22-1.2,0-2.23-.11-2.91-.17v12.85H892.85Zm10.68,17a16.34,16.34,0,0,0,2.8.17c4.17,0,7.13-1.89,7.13-5.37,0-2.8-2.11-4.63-6.39-4.63a20.42,20.42,0,0,0-3.54.23Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M941.27,231.34l-2.45,9.37H927.46l12.16-38.49h14.73l13,38.49h-12l-2.85-9.37Zm9.54-7.88-2.06-6.79c-.68-2.17-1.48-5-2.17-7.19h-.11c-.63,2.22-1.2,5-1.83,7.25l-1.82,6.73Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M976.27,240.71V202.22h13.54l6.33,11.14a109.26,109.26,0,0,1,6.8,14.56h.17a124.41,124.41,0,0,1-.74-15.65V202.22h10v38.49h-11.82l-7-12.74a164.16,164.16,0,0,1-7.43-14.9h-.23c.29,5.83.35,11.42.35,17.25v10.39Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                            <path d="M1032.4,240.71V224.66L1019,202.22h12.62l3.6,8.57c1.2,2.8,1.94,4.45,2.91,6.85h.11c.92-2.23,1.77-4.17,2.86-6.79l3.6-8.63h12.44l-14,22v16.45Z"
+                                transform="translate(-34.71 -28.57)" fill="#fff" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <h3>About</h3>
+                <ul>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Press</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <h3>For partners</h3>
+                <ul>
+                    <li>
+                        <a href="#">Api</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <h3>Legal</h3>
+                <ul>
+                    <li>
+                        <a href="#">Imprint</a>
+                    </li>
+                    <li>
+                        <a href="#">Data Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms and Conditions</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <h3>Newsletter</h3>
+                <div class="email">
+                    <input type="text" placeholder="Email">
+                    <a href="#" class="email-link"></a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="facebook"></a>
+                    <a href="#" class="twitter"></a>
+                    <a href="#" class="linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/css3-animate-it.js"></script>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        $('.hamburger').click(function () {
+            $('nav').toggleClass('active'), $(this).toggleClass('is-active');
+        })
+    });
+</script>
+</body>
+
+</html>
